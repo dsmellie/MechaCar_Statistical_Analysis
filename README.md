@@ -3,7 +3,7 @@
 
 ## Linear Regression to Predict MPG!
 
-[d1 picture](https://user-images.githubusercontent.com/109701875/200976013-22dda2c6-8152-45e8-83b5-6a05dbda8a55.PNG)
+[Linear Regression Data](https://user-images.githubusercontent.com/109701875/200976013-22dda2c6-8152-45e8-83b5-6a05dbda8a55.PNG)
 
 The two variables I identified as having a significant impact on a vehicle’s mpg (at the .001) significance level are vehicle length and ground clearance. The slope of this model is not zero as these variables influence the mpg and thus affect the slope. The linear model is a poor predictor of the mpg of MechaCar prototypes as the  adjusted r-squared is only .6825 which means over 30% of the difference in prototype mpgs is not explained by any of the variables we analyzed.
  

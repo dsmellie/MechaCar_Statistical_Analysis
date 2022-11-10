@@ -11,4 +11,4 @@ total_summary <- suspension_table  %>% summarize(Mean=mean(PSI), Median=median(P
 
 ?t.test() 
 t.test(suspension_table$PSI, mu=1500)
-t.test(suspension_table$PSI, mu=1500, subset = suspension_table$Manufacturing_Lot)
+t.test(suspension_table$PSI, mu=1500, subset = suspension_table$Manufacturing_Lot$"Lot1")
